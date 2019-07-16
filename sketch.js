@@ -22,3 +22,10 @@ function draw() {
       speedY *= -1;
   }
 }
+
+function mouseClicked(){
+  if (dist(posX, posY, mouseX, mouseY) <= 30){
+      fill(random(0, 255), random(0, 255), random(0, 255))
+  }
+}
+
